@@ -232,24 +232,3 @@ for hashIndex, hashValue in hashErrors.items():
         #elif (val[0] not in indexNonError[rowValue]):
         elif (val[0] != indexAccurateLoc[makeIndex]):
             check[keyOfCandidate] = (storeCandidateProb.get(val[0]),"NO")
-            
-
-#l=list(storeCandidateProb.items())
-#print(l)
-#sorted_l = sorted(storeCandidateProb.items(), key=operator.itemgetter(1),reverse=True)
-#print(sorted_l)
-
-#f = open("candidateProbabilities.txt", "w+", encoding="utf-8")
-#for keys, probabilities in check.items():
-#    keys = (keys[0],keys[1])
-#    keys = str(keys)
-#    probabilities = str(probabilities)
-#    f.writelines(keys + "\t" + probabilities + "\n")
-#f.close()
-#
-#f = open("allProbabilities.txt", "w+", encoding="utf-8")
-#for keys, probabilities in checkProb.items():
-#    keys = str(keys)
-#    probabilities = str(probabilities)
-#    f.writelines(keys + "\t\t\t" + probabilities + "\n")
-#f.close()
