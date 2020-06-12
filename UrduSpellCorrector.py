@@ -8,9 +8,6 @@ import os
 from collections import Counter
 import operator
 
-
-all_files = os.listdir("C:\\Users\\Dell\\Downloads\\IR\\")
-
 with open("jang.txt","r+", encoding='utf-8') as jangFile:
     corpus = set(jangFile.readlines()[0:])
 jangFile.close()
