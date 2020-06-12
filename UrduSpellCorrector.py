@@ -2,7 +2,7 @@
 """
 Created on Sun Apr 19 08:41:34 2020
 
-@author: Dell
+@author: Mehar Fatima Khan
 """
 import os
 from collections import Counter
